@@ -18,7 +18,7 @@ const require = createRequire(import.meta.url);
 ```
 - Write the rest of your CLI code in standard ESM with `.js` file extension
 
-To convert any Oclif plugins to ESM by adding `"type": "module"` to the plugin package.json and write all your code with standard ESM w/ `.js` file extension.
+To convert any Oclif plugins to ESM add `"type": "module"` to the plugin package.json and write all your code with standard ESM w/ `.js` file extension.
 
 ----
 
